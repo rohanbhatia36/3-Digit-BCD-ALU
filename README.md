@@ -4,6 +4,8 @@
 
 This project is a complete hardware implementation of a 3-digit signed number calculator, designed and verified in Verilog and deployed on a Digilent Cmod A7-35T FPGA. The Arithmetic Logic Unit (ALU) performs signed addition and subtraction on numbers in the range of -999 to +999. User input is handled by debounced external pushbuttons, and the final output is displayed on a multiplexed 4-digit 7-segment display.
 
+[![Demonstration of the ALU in action](https://img.youtube.com/vi/eYz83JoBjYc/0.jpg)](https://www.youtube.com/watch?v=eYz83JoBjYc)
+
 ## Features
 
 * **Signed BCD Arithmetic:** The core of the design is an [ALU](https://en.wikipedia.org/wiki/Arithmetic_logic_unit) that performs 3-digit [Binary-Coded Decimal](https://en.wikipedia.org/wiki/Binary-coded_decimal) (BCD) addition and subtraction.
